@@ -1,0 +1,27 @@
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<main>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:typoscript2ce/locallang_db.xml:pi_flexform.sheet_main</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<tsobject>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:typoscript2ce/locallang_db.xml:pi_flexform.tsobject</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</tsobject>
+				</el>
+			</ROOT>
+		</main>
+	</sheets>
+</T3DataStructure>
