@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-07-28T12:00:00Z" product-name="typoscript2ce">
+		<header/>
+		<body>
+			<trans-unit id="flexform.main">
+				<source>Main Settings</source>
+			</trans-unit>
+			<trans-unit id="flexform.typoscriptobjectpath">
+				<source>TypoScript Object Path (e.g. lib.test)</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,2 @@
+# cat=basic/enable/010; type=boolean; label= Enable Plugin caching: The Output of the plugin is not cached by default. If you want to cache the output, use this setting.
+enableCaching = 0

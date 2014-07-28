@@ -1,7 +1,27 @@
 <?php
 if (!defined ('TYPO3_MODE')) {
- 	die ('Access denied.');
+	die ('Access denied.');
 }
 
-t3lib_extMgm::addPItoST43($_EXTKEY, 'pi1/class.tx_typoscript2ce_pi1.php', '_pi1', 'list_type', 1);
-?>
+/**
+ * Get configuration from extension manager
+ */
+$confArr = unserialize($GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf']['typoscript2ce']);
+
+$uncachedActions = 'index';
+if ($confArr['enableCaching'] == 1) {
+	$uncachedActions = '';
+}
+/**
+ * Include Frontend Plugins for Powermail
+ */
+\TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
+	'In2code.' . $_EXTKEY,
+	'Pi1',
+	array(
+		'TypoScript' => 'index'
+	),
+	array(
+		'Form' => $uncachedActions
+	)
+);
