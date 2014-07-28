@@ -1,0 +1,27 @@
+.. |flexform|      image:: /Images/flexform.png
+   :width: 500
+.. :align: left
+.. :border: 0
+.. :name: graphics1
+.. :vspace: 57
+
+.. |hmenu|      image:: /Images/hmenu.jpg
+   :width: 500
+.. :align: left
+.. :border: 0
+.. :name: graphics1
+.. :vspace: 57
+
+.. |extension_manager|      image:: /Images/extension_manager.png
+   :width: 500
+.. :align: left
+.. :border: 0
+.. :name: graphics1
+.. :vspace: 57
+
+.. |setup|      image:: /Images/setup.png
+   :width: 500
+.. :align: left
+.. :border: 0
+.. :name: graphics1
+.. :vspace: 57
