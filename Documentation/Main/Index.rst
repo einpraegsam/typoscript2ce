@@ -68,6 +68,20 @@ All changes are documented on `http://forge.typo3.org/projects/extension-typoscr
       Release Description
 
  - :Version:
+      1.0.2
+   :Date:
+      2014-08-08
+   :Changes:
+      RST Documentation is not rendered in TER - change in Manual
+
+ - :Version:
+      1.0.1
+   :Date:
+      2014-08-05
+   :Changes:
+      RST Documentation is not rendered in TER - change in Manual
+
+ - :Version:
       1.0.0
    :Date:
       2014-07-28
