@@ -1,5 +1,5 @@
-.. include:: /Includes.txt
-.. include:: /Images.txt
+.. include:: ../Includes.txt
+.. include:: ../Images.txt
 
 .. _introduction:
 
