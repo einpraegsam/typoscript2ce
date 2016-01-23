@@ -8,7 +8,7 @@ typoscript2ce
 .. only:: html
 
 	:Copyright:
-		2005 - 2014
+		2005 - 2016
 
 	:Classification:
 		typoscript2ce
