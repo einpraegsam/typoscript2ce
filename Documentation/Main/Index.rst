@@ -1,5 +1,5 @@
-.. include:: /Includes.txt
-.. include:: /Images.txt
+.. include:: ../Includes.txt
+.. include:: ../Images.txt
 
 .. _introduction:
 
@@ -66,6 +66,29 @@ All changes are documented on `http://forge.typo3.org/projects/extension-typoscr
       Release Date
    :Changes:
       Release Description
+
+ - :Version:
+      1.1.0
+   :Date:
+      2016-01-23
+   :Changes:
+      Set dependencies to PHP5 minimum
+      Update dependencies to TYPO3 6.0-7.x
+      PSR-2 Refactoring
+
+ - :Version:
+      1.0.2
+   :Date:
+      2014-08-08
+   :Changes:
+      RST Documentation is not rendered in TER - change in Manual
+
+ - :Version:
+      1.0.1
+   :Date:
+      2014-08-05
+   :Changes:
+      RST Documentation is not rendered in TER - change in Manual
 
  - :Version:
       1.0.0

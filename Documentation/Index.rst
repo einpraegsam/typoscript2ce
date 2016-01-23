@@ -1,34 +1,35 @@
-.. include:: /Includes.txt
-.. include:: /Images.txt
+.. include:: Includes.txt
+.. include:: Images.txt
 
 =============
 typoscript2ce
 =============
 
 .. only:: html
+
 	:Copyright:
-		2005 - 2014
+		2005 - 2016
 
 	:Classification:
-			typoscript2ce
+		typoscript2ce
 
-		:Version:
-			|release|
+	:Version:
+		|release|
 
 	:Language:
-			en
+		en
 
-		:Keywords:
-			typoscript2ce, TypoScript, Content Element, cObj
+	:Keywords:
+		typoscript2ce, TypoScript, Content Element, cObj
 
-		:Author:
-			Alex Kellner
+	:Author:
+		Alex Kellner
 
-		:Email:
-			alexander.kellner@in2code.de
+	:Email:
+		alexander.kellner@in2code.de
 
-		:Rendered:
-			|today|
+	:Rendered:
+		|today|
 
 
 	**Table of Contents**
