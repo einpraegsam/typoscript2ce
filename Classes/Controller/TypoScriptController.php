@@ -1,6 +1,8 @@
 <?php
 namespace In2code\Typoscript2ce\Controller;
 
+use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
+
 /***************************************************************
  *  Copyright notice
  *
@@ -25,21 +27,22 @@ namespace In2code\Typoscript2ce\Controller;
  *  This copyright notice MUST APPEAR in all copies of the script!
  ***************************************************************/
 
-
 /**
  * TypoScript Controller
  *
  * @package typoscript2ce
  * @license http://www.gnu.org/licenses/lgpl.html
- * 			GNU Lesser General Public License, version 3 or later
+ *            GNU Lesser General Public License, version 3 or later
  */
-class TypoScriptController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
+class TypoScriptController extends ActionController
+{
 
-	/**
-	 * Index Action
-	 *
-	 * @return void
-	 */
-	public function indexAction() {
-	}
+    /**
+     * Index Action
+     *
+     * @return void
+     */
+    public function indexAction()
+    {
+    }
 }

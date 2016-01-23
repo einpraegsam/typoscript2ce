@@ -10,7 +10,7 @@
 # writing. "version" and "dependencies" must not be touched!
 ########################################################################
 
-$EM_CONF[$_EXTKEY] = array(
+$EM_CONF[$_EXTKEY] = [
 	'title' => 'typoscript2contentelement',
 	'description' => 'typoscript2contentelement allows you to show the result
 		of typoscript (e.g. HMENU) as a contentelement - a simple thing...',
@@ -35,14 +35,15 @@ $EM_CONF[$_EXTKEY] = array(
 	'author_company' => 'in2code.de',
 	'CGLcompliance' => '',
 	'CGLcompliance_note' => '',
-	'constraints' => array(
-		'depends' => array(
-			'typo3' => '6.0.0-6.2.99',
-			'extbase' => '6.0.0-6.2.99',
-			'fluid' => '6.0.0-6.2.99',
+	'constraints' => [
+		'depends' => [
+			'typo3' => '6.0.0-7.99.99',
+			'extbase' => '6.0.0-7.99.99',
+			'fluid' => '6.0.0-7.99.99',
 			'cms' => '',
-		),
-		'conflicts' => array(),
-		'suggests' => array(),
-	),
-);
+			'php' => '5.5.0-0.0.0'
+		],
+		'conflicts' => [],
+		'suggests' => [],
+	],
+];
