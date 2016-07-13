@@ -68,6 +68,13 @@ All changes are documented on `http://forge.typo3.org/projects/extension-typoscr
       Release Description
 
  - :Version:
+      1.1.1
+   :Date:
+      2016-07-13
+   :Changes:
+      Removed some copy paste errors. No functional changes.
+
+ - :Version:
       1.1.0
    :Date:
       2016-01-23
