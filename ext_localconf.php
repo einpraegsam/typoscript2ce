@@ -13,7 +13,7 @@ if ($confArr['enableCaching'] === '1') {
     $uncachedActions = '';
 }
 /**
- * Include Frontend Plugins for Powermail
+ * Include Frontend Plugins
  */
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
     'In2code.' . $_EXTKEY,
@@ -22,6 +22,6 @@ if ($confArr['enableCaching'] === '1') {
         'TypoScript' => 'index'
     ],
     [
-        'Form' => $uncachedActions
+        'TypoScript' => $uncachedActions
     ]
 );
