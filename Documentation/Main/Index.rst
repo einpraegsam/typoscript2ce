@@ -75,6 +75,20 @@ All changes are documented on `http://forge.typo3.org/projects/extension-typoscr
       Removed some copy paste errors. No functional changes.
 
  - :Version:
+      1.2.0
+   :Date:
+      2017-01-25
+   :Changes:
+      Move to github, add composer.json, Update dependencies for TYPO3 8.x
+
+ - :Version:
+      1.1.1
+   :Date:
+      2016-07-13
+   :Changes:
+      Small bugfixes
+
+ - :Version:
       1.1.0
    :Date:
       2016-01-23
