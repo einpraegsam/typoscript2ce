@@ -16,6 +16,7 @@ And let it render by adding a new content element of type plugin typoscript2ce.
 
 | Version    | Date       | State      | Description                                                                  |
 | ---------- | ---------- | ---------- | ---------------------------------------------------------------------------- |
+| 1.2.0      | 2017-01-25 | Task       | Move to github, add composer.json, Update dependencies for TYPO3 8.x         |
 | 1.1.1      | 2016-07-13 | Bugfix     | Small bugfixes                                                               |
 | 1.1.0      | 2016-01-23 | Task       | Change dependencies for TYPO3 6.0-7.x and PHP5.5                             |
 | 1.0.2      | 2014-08-08 | Bugfix     | Another manual update                                                        |
