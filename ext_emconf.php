@@ -16,7 +16,7 @@ $EM_CONF[$_EXTKEY] = [
 		of typoscript (e.g. HMENU) as a contentelement - a simple thing...',
 	'category' => 'plugin',
 	'shy' => 0,
-	'version' => '1.2.2',
+	'version' => '1.2.3',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
