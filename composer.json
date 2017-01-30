@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "In2code\\typoscript2ce\\": "Classes/"
+      "In2code\\Typoscript2ce\\": "Classes/"
     }
   }
 }
