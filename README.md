@@ -16,6 +16,7 @@ And let it render by adding a new content element of type plugin typoscript2ce.
 
 | Version    | Date       | State      | Description                                                                  |
 | ---------- | ---------- | ---------- | ---------------------------------------------------------------------------- |
+| 1.2.3      | 2017-01-30 | Task       | Fix a typo in composer.json                                                      |
 | 1.2.2      | 2017-01-25 | Task       | Bugfix in composer.json                                                      |
 | 1.2.1      | 2017-01-25 | Task       | Same as 1.2.0 - just a mistake with TER-upload                               |
 | 1.2.0      | 2017-01-25 | Task       | Move to github, add composer.json, Update dependencies for TYPO3 8.x         |
