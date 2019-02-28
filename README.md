@@ -16,6 +16,7 @@ And let it render by adding a new content element of type plugin typoscript2ce.
 
 | Version    | Date       | State      | Description                                                                  |
 | ---------- | ---------- | ---------- | ---------------------------------------------------------------------------- |
+| 2.0.1      | 2019-02-28 | Bugfix     | Remove outdated dependencies in ext_emconf.php                               |
 | 2.0.0      | 2018-11-01 | Task       | Release for TYPO3 9.5                                                        |
 | 1.2.3      | 2017-01-30 | Task       | Fix a typo in composer.json                                                  |
 | 1.2.2      | 2017-01-25 | Task       | Bugfix in composer.json                                                      |
