@@ -16,7 +16,7 @@ $EM_CONF[$_EXTKEY] = [
 		of typoscript (e.g. HMENU) as a contentelement - a simple thing...',
 	'category' => 'plugin',
 	'shy' => 0,
-	'version' => '2.0.0',
+	'version' => '2.0.1',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
@@ -37,10 +37,7 @@ $EM_CONF[$_EXTKEY] = [
 	'CGLcompliance_note' => '',
 	'constraints' => [
 		'depends' => [
-			'typo3' => '6.0.0-9.5.99',
-			'extbase' => '6.0.0-9.5.99',
-			'fluid' => '6.0.0-9.5.99',
-			'cms' => '',
+			'typo3' => '7.6.0-9.5.99',
 			'php' => '5.5.0-0.0.0'
 		],
 		'conflicts' => [],
