@@ -11,9 +11,8 @@ if (!defined('TYPO3_MODE')) {
 /**
  * Include Flexform
  */
-$pluginSignature = str_replace('_', '', 'typoscript2ce') . '_pi1';
-$GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$pluginSignature] = 'pi_flexform';
+$GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist']['typoscript2ce_pi1'] = 'pi_flexform';
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(
-    $pluginSignature,
-    'FILE:EXT:' . 'typoscript2ce' . '/Configuration/FlexForms/FlexFormPi1.xml'
+    'typoscript2ce_pi1',
+    'FILE:EXT:typoscript2ce/Configuration/FlexForms/FlexFormPi1.xml'
 );
