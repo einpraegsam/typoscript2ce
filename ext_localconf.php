@@ -6,7 +6,7 @@ if (!defined('TYPO3_MODE')) {
 /**
  * Get configuration from extension manager
  */
-$confArr = unserialize($GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf']['typoscript2ce']);
+$confArr = $GLOBALS['TYPO3_CONF_VARS']['EXTENSIONS']['typoscript2ce'];
 
 $uncachedActions = 'index';
 if ($confArr['enableCaching'] === '1') {
@@ -16,12 +16,12 @@ if ($confArr['enableCaching'] === '1') {
  * Include Frontend Plugins
  */
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-    'In2code.' . $_EXTKEY,
+    'typoscript2ce',
     'Pi1',
     [
-        'TypoScript' => 'index'
+        \In2code\Typoscript2ce\Controller\TypoScriptController::class => 'index'
     ],
     [
-        'TypoScript' => $uncachedActions
+        \In2code\Typoscript2ce\Controller\TypoScriptController::class => $uncachedActions
     ]
 );
