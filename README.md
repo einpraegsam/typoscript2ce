@@ -1,13 +1,29 @@
 # TYPO3 Extension typoscript2ce
 Render some typoscript as a content element in TYPO3
 
+
+## What does it do
+
+If you want to render some TypoScript as a Content Element, you can use this plugin.
+This plugin is really a small plugin without any deeper logic, but should help you with your daily work.
+
+
+## Quickstart
+
+- Install extension `composer require in2code/typoscript2ce`
+- Add some TypoScript to the current (or the root) page (e.g. lib.temp)
+- Add the plugin to a page
+- Call same Typoscript object (like lib.anything) into the FlexForm Field
+- Done
+
+
 ## Introduction
 
 Just define your TypoScript: 
 
 ```
-lib.test = TEXT
-lib.test.value = Show this text as content
+lib.anything = TEXT
+lib.anything.value = Show this text as content
 ```
 
 And let it render by adding a new content element of type plugin typoscript2ce.
@@ -16,6 +32,7 @@ And let it render by adding a new content element of type plugin typoscript2ce.
 
 | Version    | Date       | State      | Description                                                                  |
 | ---------- | ---------- | ---------- | ---------------------------------------------------------------------------- |
+| 3.0.0      | 2020-05-08 | Task       | Update for TYPO3 10                                                          |
 | 2.0.1      | 2019-02-28 | Bugfix     | Remove outdated dependencies in ext_emconf.php                               |
 | 2.0.0      | 2018-11-01 | Task       | Release for TYPO3 9.5                                                        |
 | 1.2.3      | 2017-01-30 | Task       | Fix a typo in composer.json                                                  |
