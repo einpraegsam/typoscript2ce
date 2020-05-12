@@ -32,6 +32,7 @@ And let it render by adding a new content element of type plugin typoscript2ce.
 
 | Version    | Date       | State      | Description                                                                  |
 | ---------- | ---------- | ---------- | ---------------------------------------------------------------------------- |
+| 3.0.1      | 2020-05-12 | Bugfix     | Update version in ext_emconf.php                                             |
 | 3.0.0      | 2020-05-08 | Task       | Update for TYPO3 10                                                          |
 | 2.0.1      | 2019-02-28 | Bugfix     | Remove outdated dependencies in ext_emconf.php                               |
 | 2.0.0      | 2018-11-01 | Task       | Release for TYPO3 9.5                                                        |
