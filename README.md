@@ -7,17 +7,19 @@ Render some typoscript as a content element in TYPO3
 If you want to render some TypoScript as a Content Element, you can use this plugin.
 This plugin is really a small plugin without any deeper logic, but should help you with your daily work.
 
+![Plugin example](Documentation/Images/screenshot_backend_tt_content.png "Example plugin")
+
 
 ## Quickstart
 
 - Install extension `composer require in2code/typoscript2ce`
-- Add some TypoScript to the current (or the root) page (e.g. lib.temp)
+- Add some TypoScript to the current (or the root) page (e.g. lib.myTypoScript)
 - Add the plugin to a page
 - Call same Typoscript object (like lib.anything) into the FlexForm Field
 - Done
 
 
-## Introduction
+## Example
 
 Just define your TypoScript: 
 
@@ -27,6 +29,11 @@ lib.anything.value = Show this text as content
 ```
 
 And let it render by adding a new content element of type plugin typoscript2ce.
+
+
+## What else
+
+You can enable caching for the plugin in the extension manager settings, if you need it.
 
 ## Changelog
 
