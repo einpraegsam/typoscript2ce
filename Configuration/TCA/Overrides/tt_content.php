@@ -13,3 +13,9 @@ $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist']['typoscript2c
     'typoscript2ce_pi1',
     'FILE:EXT:typoscript2ce/Configuration/FlexForms/FlexFormPi1.xml'
 );
+
+/**
+ * Disable not needed fields in tt_content
+ */
+$GLOBALS['TCA']['tt_content']['types']['list']['subtypes_excludelist']['typoscript2ce_pi1']
+    = 'select_key,pages,recursive';
