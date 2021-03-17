@@ -39,6 +39,7 @@ You can enable caching for the plugin in the extension manager settings, if you 
 
 | Version    | Date       | State      | Description                                                                  |
 | ---------- | ---------- | ---------- | ---------------------------------------------------------------------------- |
+| 4.0.1      | 2021-03-17 | Task       | Add extension key to composer.json                                           |
 | 4.0.0      | 2021-01-26 | Task       | Modernizing update (new icon, auto releases, reduced technical dept, etc...  |
 | 3.0.1      | 2020-05-12 | Bugfix     | Update version in ext_emconf.php                                             |
 | 3.0.0      | 2020-05-08 | Task       | Update for TYPO3 10                                                          |

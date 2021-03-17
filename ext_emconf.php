@@ -5,7 +5,7 @@ $EM_CONF[$_EXTKEY] = [
 	'description' => 'typoscript2contentelement allows you to show the result
 		of typoscript (e.g. HMENU) as a contentelement - a simple thing...',
 	'category' => 'plugin',
-	'version' => '4.0.0',
+	'version' => '4.0.1',
 	'state' => 'stable',
 	'author' => 'Alex Kellner',
 	'author_email' => 'alexander.kellner@in2code.de',
