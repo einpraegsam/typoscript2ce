@@ -37,23 +37,24 @@ You can enable caching for the plugin in the extension manager settings, if you 
 
 ## Changelog
 
-| Version    | Date       | State      | Description                                                                  |
-| ---------- | ---------- | ---------- | ---------------------------------------------------------------------------- |
-| 6.0.0      | 2022-10-18 | Task       | Add TYPO3 12 and drop TYPO3 10 compatibility                                 |
-| 5.0.0      | 2021-05-06 | Task       | Add TYPO3 11 compatibility                                                   |
-| 4.0.1      | 2021-03-17 | Task       | Add extension key to composer.json                                           |
-| 4.0.0      | 2021-01-26 | Task       | Modernizing update (new icon, auto releases, reduced technical dept, etc...  |
-| 3.0.1      | 2020-05-12 | Bugfix     | Update version in ext_emconf.php                                             |
-| 3.0.0      | 2020-05-08 | Task       | Update for TYPO3 10                                                          |
-| 2.0.1      | 2019-02-28 | Bugfix     | Remove outdated dependencies in ext_emconf.php                               |
-| 2.0.0      | 2018-11-01 | Task       | Release for TYPO3 9.5                                                        |
-| 1.2.3      | 2017-01-30 | Task       | Fix a typo in composer.json                                                  |
-| 1.2.2      | 2017-01-25 | Task       | Bugfix in composer.json                                                      |
-| 1.2.1      | 2017-01-25 | Task       | Same as 1.2.0 - just a mistake with TER-upload                               |
-| 1.2.0      | 2017-01-25 | Task       | Move to github, add composer.json, Update dependencies for TYPO3 8.x         |
-| 1.1.1      | 2016-07-13 | Bugfix     | Small bugfixes                                                               |
-| 1.1.0      | 2016-01-23 | Task       | Change dependencies for TYPO3 6.0-7.x and PHP5.5                             |
-| 1.0.2      | 2014-08-08 | Bugfix     | Another manual update                                                        |
-| 1.0.1      | 2014-08-05 | Bugfix     | Manual update                                                                |
-| 1.0.0      | 2014-07-28 | Task       | Refactored with extbase and namespaces                                       |
-| 0.1.0      | 2009-03-31 | Task       | Initial release                                                              |
+| Version | Date       | State  | Description                                                                 |
+|---------|------------|--------|-----------------------------------------------------------------------------|
+| 7.0.0   | 2024-10-07 | Task   | Add TYPO3 13 compatibility                                                  |
+| 6.0.0   | 2022-10-18 | Task   | Add TYPO3 12 and drop TYPO3 10 compatibility                                |
+| 5.0.0   | 2021-05-06 | Task   | Add TYPO3 11 compatibility                                                  |
+| 4.0.1   | 2021-03-17 | Task   | Add extension key to composer.json                                          |
+| 4.0.0   | 2021-01-26 | Task   | Modernizing update (new icon, auto releases, reduced technical dept, etc... |
+| 3.0.1   | 2020-05-12 | Bugfix | Update version in ext_emconf.php                                            |
+| 3.0.0   | 2020-05-08 | Task   | Update for TYPO3 10                                                         |
+| 2.0.1   | 2019-02-28 | Bugfix | Remove outdated dependencies in ext_emconf.php                              |
+| 2.0.0   | 2018-11-01 | Task   | Release for TYPO3 9.5                                                       |
+| 1.2.3   | 2017-01-30 | Task   | Fix a typo in composer.json                                                 |
+| 1.2.2   | 2017-01-25 | Task   | Bugfix in composer.json                                                     |
+| 1.2.1   | 2017-01-25 | Task   | Same as 1.2.0 - just a mistake with TER-upload                              |
+| 1.2.0   | 2017-01-25 | Task   | Move to github, add composer.json, Update dependencies for TYPO3 8.x        |
+| 1.1.1   | 2016-07-13 | Bugfix | Small bugfixes                                                              |
+| 1.1.0   | 2016-01-23 | Task   | Change dependencies for TYPO3 6.0-7.x and PHP5.5                            |
+| 1.0.2   | 2014-08-08 | Bugfix | Another manual update                                                       |
+| 1.0.1   | 2014-08-05 | Bugfix | Manual update                                                               |
+| 1.0.0   | 2014-07-28 | Task   | Refactored with extbase and namespaces                                      |
+| 0.1.0   | 2009-03-31 | Task   | Initial release                                                             |
