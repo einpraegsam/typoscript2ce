@@ -39,6 +39,7 @@ You can enable caching for the plugin in the extension manager settings, if you 
 
 | Version | Date       | State  | Description                                                                 |
 |---------|------------|--------|-----------------------------------------------------------------------------|
+| 8.0.0   | 2026-05-29 | Task   | TYPO3 14 compat, drop v11/v12, migrate to CType, add upgrade wizard         |
 | 7.0.0   | 2024-10-07 | Task   | Add TYPO3 13 compatibility                                                  |
 | 6.0.0   | 2022-10-18 | Task   | Add TYPO3 12 and drop TYPO3 10 compatibility                                |
 | 5.0.0   | 2021-05-06 | Task   | Add TYPO3 11 compatibility                                                  |
@@ -58,3 +59,13 @@ You can enable caching for the plugin in the extension manager settings, if you 
 | 1.0.1   | 2014-08-05 | Bugfix | Manual update                                                               |
 | 1.0.0   | 2014-07-28 | Task   | Refactored with extbase and namespaces                                      |
 | 0.1.0   | 2009-03-31 | Task   | Initial release                                                             |
+
+
+## Breaking changes
+
+### Upgrading from 7.x to 8.x
+
+Version 8.0.0 migrates the plugin from the legacy `list_type` mechanism to a dedicated `CType` (required for TYPO3 v14).
+After updating the extension, run the upgrade wizard **"EXT:typoscript2ce: Migrate list_type plugin to CType"**
+in the install tool (or via CLI `vendor/bin/typo3 upgrade:run typoscript2ce_migrateListTypeToCType`) to convert
+existing content elements. Without this step, previously placed plugin instances will no longer render.

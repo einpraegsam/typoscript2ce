@@ -1,21 +1,22 @@
 <?php
+defined('TYPO3') || die();
 
-/**
- * Include Plugins
- */
-\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin('typoscript2ce', 'Pi1', 'Typoscript2ce');
+use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
+use TYPO3\CMS\Extbase\Utility\ExtensionUtility;
 
-/**
- * Include Flexform
- */
-$GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist']['typoscript2ce_pi1'] = 'pi_flexform';
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(
-    'typoscript2ce_pi1',
-    'FILE:EXT:typoscript2ce/Configuration/FlexForms/FlexFormPi1.xml'
+$pluginSignature = 'typoscript2ce_pi1';
+
+ExtensionUtility::registerPlugin('typoscript2ce', 'Pi1', 'Typoscript2ce');
+
+ExtensionManagementUtility::addPiFlexFormValue(
+    '*',
+    'FILE:EXT:typoscript2ce/Configuration/FlexForms/FlexFormPi1.xml',
+    $pluginSignature,
 );
 
-/**
- * Disable not needed fields in tt_content
- */
-$GLOBALS['TCA']['tt_content']['types']['list']['subtypes_excludelist']['typoscript2ce_pi1']
-    = 'select_key,pages,recursive';
+ExtensionManagementUtility::addToAllTCAtypes(
+    'tt_content',
+    'pi_flexform',
+    $pluginSignature,
+    'after:subheader',
+);
