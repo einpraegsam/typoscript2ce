@@ -1,31 +1,21 @@
 <?php
-if (!defined('TYPO3')) {
-    die('Access denied.');
-}
+defined('TYPO3') || die();
 
-call_user_func(function () {
-    /**
-     * Get configuration from extension manager
-     */
-    $configuration = (array)\TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(
-        \TYPO3\CMS\Core\Configuration\ExtensionConfiguration::class
-    )->get('typoscript2ce');
-    $uncachedActions = 'index';
-    if ($configuration['enableCaching'] === '1') {
-        $uncachedActions = '';
-    }
+use In2code\Typoscript2ce\Controller\TypoScriptController;
+use TYPO3\CMS\Core\Configuration\ExtensionConfiguration;
+use TYPO3\CMS\Core\Utility\GeneralUtility;
+use TYPO3\CMS\Extbase\Utility\ExtensionUtility;
 
-    /**
-     * Include Frontend Plugins
-     */
-    \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
+call_user_func(function (): void {
+    $configuration = (array)GeneralUtility::makeInstance(ExtensionConfiguration::class)->get('typoscript2ce');
+    $cachingEnabled = ($configuration['enableCaching'] ?? '0') === '1';
+    $uncachedActions = $cachingEnabled ? '' : 'index';
+
+    ExtensionUtility::configurePlugin(
         'typoscript2ce',
         'Pi1',
-        [
-            \In2code\Typoscript2ce\Controller\TypoScriptController::class => 'index'
-        ],
-        [
-            \In2code\Typoscript2ce\Controller\TypoScriptController::class => $uncachedActions
-        ]
+        [TypoScriptController::class => 'index'],
+        [TypoScriptController::class => $uncachedActions],
+        ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT,
     );
 });
